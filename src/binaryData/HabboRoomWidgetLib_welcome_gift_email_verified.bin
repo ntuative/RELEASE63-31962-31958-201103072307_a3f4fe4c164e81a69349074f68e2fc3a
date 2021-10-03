@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="welcome_gift_unverified_email" width="336" height="100" version="0.1" uid="850C4865-E26C-6E80-14AC-8F9238580F8B">
+  <window>
+    <container x="0" y="0" width="336" height="100" params="16" style="0">
+      <children>
+        <border x="0" y="0" width="336" height="48" params="16" style="2" color="0x0334488">
+          <children>
+            <icon x="12" y="16" width="26" height="20" params="16" style="8" color="0x0cc00"/>
+            <text x="32" y="11" width="236" height="24" params="16" style="0" caption="john@rambo.com">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="16" type="uint"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+                <var key="bold" value="true" type="Boolean"/>
+              </variables>
+            </text>
+            <text x="246" y="14" width="83" height="17" params="262160" style="0" caption="Email%20verified%21">
+              <variables>
+                <var key="antialias_type" value="advanced" type="String"/>
+                <var key="auto_size" value="right" type="String"/>
+                <var key="font_face" value="Ubuntu" type="String"/>
+                <var key="font_size" value="12" type="uint"/>
+                <var key="text_color" value="0xffffff" type="hex"/>
+                <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+              </variables>
+            </text>
+          </children>
+        </border>
+        <button x="0" y="60" width="130" height="40" params="131089" style="0" name="close" caption="Close" width_min="130"/>
+        <button x="206" y="60" width="130" height="40" params="131089" style="0" name="open" caption="Open" width_min="130"/>
+      </children>
+    </container>
+  </window>
+</layout>
